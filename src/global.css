@@ -1,0 +1,33 @@
+:root {
+  font-size: 62.5%;
+--darkblue: hsl(233, 26%, 24%);
+--limegreen: hsl(136, 65%, 51%);
+--brightcyan: hsl(192, 70%, 51%);
+--grayishblue: hsl(233, 8%, 62%);
+--lightgrayishblue: hsl(220, 16%, 96%);
+--verylightgray: hsl(0, 0%, 98%);
+--white: hsl(0, 0%, 100%);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Public Sans', sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, input, button {
+  font-size: 18px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.card h3 {
+  color: var(--darkblue);
+  font-weight: 400;
+}
+
+.card p {
+  color: var(--grayishblue);
+}
