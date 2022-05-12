@@ -79,16 +79,18 @@ main {
   }
   .initial-container {
     flex-direction: row-reverse;
-    margin-bottom: 0;
+    max-width: 1200px;
+    margin: 0 auto;
   }
   .initial-container .background {
     width: 100%;
     height: 100%;
   }
   .initial-container .background .bg {
+    max-width: 1000px;
     display: block;
     position: absolute;
-    bottom: 8%;
+    bottom: 10%;
     left: -20%;
     z-index: 0;
     width: 180%;
@@ -97,15 +99,17 @@ main {
     display: none;
   }
   .initial-container .background .cell {
+    max-width: 700px;
     position: relative;
     width: 110%;
+    height: 850px;
     margin-left: 5rem;
     z-index: 1;
   }
   .initial-container .generation {
     width: 100%;
     height: 700px;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
   .initial-container .generation .group {
