@@ -10,36 +10,38 @@ import Instagram from '../Icons/Instagram'
 function index() {
   return (
     <footer>
-      <div className="logo">
-        <img src="./img/logo-footer.svg" alt="logo" />
+      <div className='tie-one'>
+        <div className="logo">
+          <img src="./img/logo-footer.svg" alt="logo" />
+        </div>
+        <ul className="social-network">
+          <li>
+            <a href="#" target="_blank">
+              <Facebook />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <Youtube />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <Twitter />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <Pinterest />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <Instagram />
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul className="social-network">
-        <li>
-          <a href="#" target="_blank">
-            <Facebook />
-          </a>
-        </li>
-        <li>
-          <a href="#" target="_blank">
-            <Youtube />
-          </a>
-        </li>
-        <li>
-          <a href="#" target="_blank">
-            <Twitter />
-          </a>
-        </li>
-        <li>
-          <a href="#" target="_blank">
-            <Pinterest />
-          </a>
-        </li>
-        <li>
-          <a href="#" target="_blank">
-            <Instagram />
-          </a>
-        </li>
-      </ul>
       <nav className="nav-footer">
         <ul>
           <li>
@@ -51,6 +53,8 @@ function index() {
           <li>
             <a href="#">Blog</a>
           </li>
+        </ul>
+        <ul>
           <li>
             <a href="#">Careers</a>
           </li>
@@ -62,8 +66,10 @@ function index() {
           </li>
         </ul>
       </nav>
-        <Button name="Request Invite" style="button" />
-        <p className="copy">&copy; Easybank. All Rights Reserved</p>
+      <div className='tie-two'>
+      <Button name="Request Invite" style="button" />
+      <p className="copy">&copy; Easybank. All Rights Reserved</p>
+      </div>
     </footer>
   )
 }

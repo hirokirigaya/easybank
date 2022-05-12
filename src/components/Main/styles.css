@@ -71,7 +71,7 @@ main {
   color: var(--grayishblue);
   text-align: center;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
   main {
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@ main {
   }
   .initial-container {
     flex-direction: row-reverse;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
   }
   .initial-container .background {
@@ -104,6 +104,7 @@ main {
     z-index: 1;
   }
   .initial-container .generation {
+    margin-left: 2rem;
     width: 100%;
     height: 700px;
     align-items: flex-start;
@@ -124,6 +125,16 @@ main {
   }
 }
 
+@media (min-width: 1200px) {
+  .initial-container {
+    flex-direction: row-reverse;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .initial-container .generation {
+    margin-left: 0;
+  }
+}
 @media (min-width: 1440px) {
   .initial-container {
     max-width: 1440px;
