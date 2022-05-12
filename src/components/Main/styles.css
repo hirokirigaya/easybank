@@ -87,7 +87,6 @@ main {
     height: 100%;
   }
   .initial-container .background .bg {
-    max-width: 1000px;
     display: block;
     position: absolute;
     bottom: 10%;
@@ -99,10 +98,8 @@ main {
     display: none;
   }
   .initial-container .background .cell {
-    max-width: 700px;
     position: relative;
     width: 110%;
-    height: 850px;
     margin-left: 5rem;
     z-index: 1;
   }
@@ -124,6 +121,20 @@ main {
   .initial-container .generation .group p {
     text-align: start;
     font-size: 18px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .initial-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1920px) {
+  .initial-container {
+    max-width: 1920px;
+    margin: 0 auto;
   }
 }
 
