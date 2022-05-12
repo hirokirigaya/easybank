@@ -3,7 +3,7 @@ import Cards from './Cards'
 
 function index() {
   return (
-    <>
+    <div className='cards'>
       {Cards.map((card) => {
         return (
         <article key={card.id} className="card">
@@ -13,7 +13,7 @@ function index() {
         </article>
         )
       })}
-    </>
+    </div>
   )
 }
 

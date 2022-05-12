@@ -1,0 +1,7 @@
+svg, path {
+  transition: 200ms ease-in-out;
+}
+
+svg:hover > path {
+  fill: var(--limegreen);
+}

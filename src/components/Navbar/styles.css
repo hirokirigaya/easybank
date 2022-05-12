@@ -1,6 +1,7 @@
 .navbar {
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 .navbar .icons {
   width: 100%;
@@ -23,7 +24,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(hsl(233, 26%, 24%, 0.7), rgba(255,255,255, 0.2));
+  background-image: linear-gradient(hsl(233, 26%, 24%), rgba(255,255,255, 0.2));
   align-items: center;
 }
 

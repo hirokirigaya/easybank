@@ -1,3 +1,9 @@
+.cards {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 .card {
   display: flex;
   flex-direction: column;
@@ -12,5 +18,39 @@
 }
 
 .card p {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 .8rem;
   color: var(--grayishblue);
+}
+
+@media(min-width: 800px) {
+  .cards {
+    margin-top: 3rem;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .card {
+    align-items: flex-start;
+    text-align: start;
+    padding-left: 3rem;
+  }
+}
+
+@media(min-width: 1200px) {
+  .cards {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .card {
+    padding-left: 0;
+    gap: 3rem;
+  }
+  .card p {
+    font-size: 18px;
+  }
+  .card h3 {
+    font-size: 26px;
+  }
 }
