@@ -59,6 +59,7 @@
   .latest-articles {
     flex-direction: row;
     align-items: flex-start;
+    margin-bottom: 6rem;
   }
   .latest-articles .article .img-art .img {
     padding: 0;

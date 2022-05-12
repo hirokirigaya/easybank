@@ -4,7 +4,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
 }
 
 footer .logo {
@@ -16,12 +15,11 @@ footer .social-network {
   list-style: none;
   gap: 2rem;
 }
-
 .nav-footer {
-  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
-
-
 .nav-footer ul {
   display: flex;
   gap: 2rem;
@@ -75,6 +73,7 @@ footer .copy {
     width: 400px;
     justify-content: space-around;
     flex-direction: row;
+    height: 120px;
   }
   .nav-footer ul{
     display: flex;
@@ -88,7 +87,7 @@ footer .copy {
   }
   .tie-one {
     width: 20%;
-    gap: 3rem;
+    gap: 5rem;
     justify-content: flex-start;
   }
   .tie-two {
