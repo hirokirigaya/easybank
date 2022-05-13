@@ -10,7 +10,7 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-
+- [How clip Repository](#how-do-you-clip-repository)
 
 
 ### Screenshot
@@ -70,3 +70,17 @@ const Cards = [
 
 I really enjoyed using mobile first, and I intend to continue, and start with sass/scss;
 
+## How do you clip repository
+
+You must have git and node in your machine, then run commands below in terminal(line command): 
+
+```
+git clone https://github.com/hirokirigaya/easybank
+
+cd easybank
+
+npm install or yarn
+
+npm start / yarn run
+
+```
