@@ -53,6 +53,10 @@ footer .copy {
   justify-content: center;
   gap: 2rem;
 }
+.tie-one a svg {
+  color: var(--white);
+  font-size: 20px;
+}
 
 .tie-two {
   display: flex;
@@ -92,5 +96,13 @@ footer .copy {
   }
   .tie-two {
     width: 40%;
+  }
+  .tie-two a {
+    text-decoration: none;
+    color: var(--limegreen);
+    transition: 200ms ease-in-out;
+  }
+  .tie-two a:hover {
+    color: var(--white);
   }
 }

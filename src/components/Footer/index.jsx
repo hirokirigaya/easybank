@@ -1,6 +1,8 @@
 import './footer.css'
 import Button from '../Button'
 
+import {FaGithubAlt as Github, FaLinkedin as Linkedin} from 'react-icons/fa';
+
 import Facebook from '../Icons/Facebook'
 import Youtube from '../Icons/Youtube'
 import Twitter from '../Icons/Twitter'
@@ -22,17 +24,7 @@ function index() {
           </li>
           <li>
             <a href="#" target="_blank">
-              <Youtube />
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank">
               <Twitter />
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank">
-              <Pinterest />
             </a>
           </li>
           <li>
@@ -40,6 +32,17 @@ function index() {
               <Instagram />
             </a>
           </li>
+          <li>
+            <a href="https://github.com/hirokirigaya" target="_blank">
+              <Github/>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/daniel-junio-0832481bb/" target="_blank">
+              <Linkedin/>
+            </a>
+          </li>
+     
         </ul>
       </div>
       <nav className="nav-footer">
@@ -69,6 +72,7 @@ function index() {
       <div className='tie-two'>
       <Button name="Request Invite" style="button" />
       <p className="copy">&copy; Easybank. All Rights Reserved</p>
+      <p className='copy'>Maked with &hearts; by <a href="http://github.com/hirokirigaya" target="_blank" rel="developer">Daniel</a></p>
       </div>
     </footer>
   )

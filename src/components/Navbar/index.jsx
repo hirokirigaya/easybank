@@ -1,6 +1,8 @@
 import './styles.css'
 
 import {useState} from 'react'
+import Button from '../Button'
+
 
 function index() {
   
@@ -12,6 +14,7 @@ function index() {
 
   return (
     <div className='navbar'>
+      <div className='tie'>
       <div className='icons'>
         <img src="./img/logo.svg" alt="logo" className='logo'/>
         <img src={open === true ? "./img/icon-close.svg" : "./img/icon-hamburger.svg" } alt="burger" className='burger' onClick={openBurger}/>
@@ -35,6 +38,10 @@ function index() {
           </li>
         </ul>
       </nav>
+      <div className='btn-request'>
+        <Button style='button' name="Request Invite"/>
+      </div>
+      </div>
     </div>
   )
 }
